@@ -1,0 +1,90 @@
+{
+  "programName" : "Web Development and Internet Applications",
+  "campus" : "Ottawa",
+  "intakeYear" : 2021,
+  "group" : 4,
+  "active" : true,
+  "courses" : [
+    {
+      "name" : "Web Programming I",
+      "code" : "CST8209",
+      "section" : 300,
+      "lab" : 303,
+      "professor" : "Sanaa Issa",
+      "evaluation" : [
+        "Mid-term (Practical + theory) 30%",
+        "Final (Practical + theory) 30%",
+        "Labs 40%"
+      ]
+    },
+    {
+      "name" : "Cross-Platform Web Design",
+      "code" : "CST8117",
+      "section" : 010,
+      "lab" : 013,
+      "professor" : "Steve Conrad",
+      "evaluation" : [
+        "Quiz 20%",
+        "Two projects 40%",
+        "Labs 40%"
+      ]
+    },
+    {
+      "name" : "Introduction Computer Programming using Python",
+      "code" : "CST8279",
+      "section" : 300,
+      "lab" : 303,
+      "professor" : "Jerome Mizon",
+      "evaluation" : [
+        "Mid-term (Practical + theory) 35%",
+        "Final (Practical + theory) 25%",
+        "Labs 40%"
+      ]
+    },
+    {
+      "name" : "Database Systems and Concepts",
+      "code" : "CST8260",
+      "section" : 300,
+      "lab" : 303,
+      "professor" : "Jerome Mizon",
+      "evaluation" : [
+        "Mid-term (Practical + theory) 35%",
+        "Final (Practical + theory) 25%",
+        "Labs 40%"
+      ]
+    },
+    {
+      "name" : "Technical Mathematics for Computer Science",
+      "code" : "MAT8001C",
+      "section" : 075,
+      "lab" : null,
+      "professor" : "Joe Nasreddine",
+      "evaluation" : [
+        "Tests 80%" : [
+            "Computer Numbers Test 12.31%",
+            "Algebra Basics Test 12.31%",
+            "Factoring and Solving Equations Test 12.31%",
+            "Trigonometry Test 12.31%",
+            "Graphing Test 12.31%",
+            "Exponential and Logarithmic Equations Test 6.15%",
+            "Vectors Test 6.15%",
+            "Linear Equations Test 6.15%"],
+        "Matlab Homework 20%"
+      ]
+    },
+    {
+      "name" : "Achieving Success in Changing Environment",
+      "code" : "CST8300",
+      "section" : 318,
+      "lab" : null,
+      "professor" : "Deborah Sogelola",
+      "evaluation" : [
+        "Weekly Quizzes/Hybrid 45%",
+        "Diversity Assignment 10%",
+        "Ethics Case Study Assignment 15%",
+        "Industry Research Assignment 10%",
+        "Final Assignment 20%"
+      ]
+    }
+  ]
+}
