@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js" defer></script>
+    <script type="text/javascript" src="scripts/validate.js" defer></script>
+    <script type="text/javascript" src="scripts/event.js" defer></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>Beverage Order</title>
+  </head>
+  <body>
+      <header>
+          <h1>Beverage Order</h1>
+      </header>
+      <main>
+          <p>This page is about entering checkout information and adding beverage to the shopping cart.</p>
+          <form name="orderInfo" class="orderInfo" action="index.html" method="post">
+              <fieldset>
+                  <legend>Order Information</legend>
+                  <p>Required fields are followed by <abbr title="required">*</abbr>.</p>
+
+                  <div>
+                      <label for="tip">Choose a tip <abbr title="required" aria-label="required">*</abbr></label>
+                      <input type="number" list="tipList" name="tip" id="tip">
+                          <datalist id="tipList">
+                            <option value="10"></option>
+                            <option value="15"></option>
+                            <option value="20"></option>
+                          </datalist>
+                      %
+                      <br><span class="alert" id="tipError"></span>
+                  </div>
+
+                  <div>
+                      <p>Choose a way to pay for your order <abbr title="required" aria-label="required">*</abbr></p>
+                      <input type="radio" name="paymentMethod" id="paymentMethod_1" value="paypal">
+                      <label for="paypal">Paypal</label>
+                      <input type="radio" name="paymentMethod" id="paymentMethod_2" value="debitCard">
+                      <label for="debitCard">Debit Card</label>
+                      <input type="radio" name="paymentMethod" id="paymentMethod_3" value="creditCard">
+                      <label for="creditCard">Credit Card</label>
+                      <br><span class="alert" id="paymentMethodError"></span>
+                  </div>
+
+                  <div>
+                      <label for="fullName">Full Name</label>
+                      <input type="text" name="fullName" id="fullName">
+                      <br><span class="alert" id="fullNameError"></span>
+                  </div>
+
+                  <div>
+                      <label for="phone">Phone</label>
+                      <input type="number" name="phone" id="phone">
+                      <br><span class="alert" id="phoneError"></span>
+                  </div>
+
+                  <div>
+                      <label for="deliveryDate">Delivery Date</label>
+                      <input type="date" id="deliveryDate" name="deliveryDate">
+                      <br><span class="alert" id="dateError"></span>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" name="term" id="term" value="termAccpeted">
+                      <label for="term">I agree to the term and conditions<abbr title="required" aria-label="required">*</abbr></label>
+                      <br><span class="alert" id="termError"></span>
+                  </div>
+
+                  <div>
+                      <label for="total">Your total ($CAD):</label>
+                      <input type="text" name="total" id="total" value="0" readonly></input>
+                  </div>
+
+                  <div>
+                      <button type="submit" name="submit">Submit</button>
+                      <button type="reset" name="reset">Reset</button>
+                  </div>
+              </fieldset>
+          </form>
+
+
+          <p>You can choose any items by clicking on the image</p>
+
+          <section class="products-container">
+                <div class="products-header">
+                    <h3>ItemPic</h3>
+                    <h3>Name</h3>
+                    <h3>Price</h3>
+                    <h3>Quantity</h3>
+                    <h3>Subtotal</h3>
+                </div>
+                <div class="products-list">
+                    <div class="rows">
+                    
+                    </div>
+
+                </div>
+          </section>
+
+          <h2>Order Information</h2>
+          <ul class="displayOrderInfo">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+
+          <h2>You picked the following items</h2>
+          <ol class="displayDrinksInfo">
+
+          </ol>
+
+
+      </main>
+  </body>
+</html>

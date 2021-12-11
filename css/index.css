@@ -1,0 +1,51 @@
+.orderInfo {
+
+}
+
+.orderInfo div {
+  margin: 20px;
+}
+
+abbr {
+  color: red;
+}
+
+.alert {
+  color: red;
+}
+
+section {
+
+}
+
+.products-container {
+  border: 1px solid black;
+}
+
+.products-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.itemPic {
+  width: 90px;
+}
+
+.rows ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rows ul li {
+  width: 20vw;
+}
