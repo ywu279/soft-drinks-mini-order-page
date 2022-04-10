@@ -1,18 +1,18 @@
 [
   {
-    "image": "http://127.0.0.1:3000/CST8209_Yufan_Wu_041041786/images/coke.png",
+    "image": "http://127.0.0.1:3000/images/coke.png",
     "name": "Coke",
     "price": 2,
     "inCart": 0
   },
   {
-    "image": "http://127.0.0.1:3000/CST8209_Yufan_Wu_041041786/images/sprite.jpg",
+    "image": "http://127.0.0.1:3000/images/sprite.jpg",
     "name": "Sprite",
     "price": 2,
     "inCart": 0
   },
   {
-    "image": "http://127.0.0.1:3000/CST8209_Yufan_Wu_041041786/images/fanta.jpg",
+    "image": "http://127.0.0.1:3000/images/fanta.jpg",
     "name": "Fanta",
     "price": 3,
     "inCart": 0
