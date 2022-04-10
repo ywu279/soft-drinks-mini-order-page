@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-let requestURL = 'http://127.0.0.1:50368/CST8209_Yufan_Wu_041041786/data.json';
+let requestURL = 'http://127.0.0.1:3000/data.json';
 function reportStatus(){
     // Process the server response here.
     if (request.readyState === XMLHttpRequest.DONE) {
@@ -88,7 +88,7 @@ class Drinks {
 
 // function displayDrinks(drinks) {
 //     let total = 0
-//     //另一种方法：不用class去创建一个模板后再display, 直接loop through data in drinks
+//     //Alternative method：不用class去创建一个模板后再display, 直接loop through data in drinks
 //     for (let i = 0; i < drinks.length; i++) {
 //
 //         let row = `<ul>
